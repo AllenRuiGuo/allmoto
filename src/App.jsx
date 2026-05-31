@@ -9,6 +9,19 @@ function App() {
 
   return (
     <>
+      <header className="site-header">
+        <a className="brand" href="/" aria-label="AllMoto home">
+          <span className="brand-mark" aria-hidden="true">
+            AM
+          </span>
+          <span className="brand-name">AllMoto</span>
+        </a>
+        <nav className="site-nav" aria-label="Primary navigation">
+          <a href="#project">project</a>
+          <a href="#contact">contact</a>
+        </nav>
+      </header>
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
