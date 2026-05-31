@@ -73,7 +73,8 @@
 
 @media (max-width: 640px) {
   .site-header {
-    min-height: auto;
+    /* 'min-height: auto' has compatibility issues in some browsers; use 0 to reset instead */
+    min-height: 0;
     padding: 16px 20px;
     align-items: flex-start;
     flex-direction: column;
