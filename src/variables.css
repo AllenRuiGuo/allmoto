@@ -1,0 +1,106 @@
+:root {
+
+    /* =========================
+       Typography
+    ========================= */
+
+    --font-sans: 'Montserrat', system-ui, sans-serif;
+    --font-heading: 'Montserrat', system-ui, sans-serif;
+    --font-mono: ui-monospace, Consolas, monospace;
+
+    /* =========================
+       Brand Colours
+    ========================= */
+
+    --colour-primary: #FF6F00;
+    --colour-secondary: #5F02BC;
+    --colour-theme-tertiary: #0F107C;
+
+    /* =========================
+       Text Colours
+    ========================= */
+
+    --colour-text-dark: #1D1D1F;
+    --colour-text-light: #F5F5F7;
+    --colour-placeholder: #ADB5BD;
+
+    /* =========================
+       Backgrounds
+    ========================= */
+
+    --colour-background-screen: #FFFFFF;
+    --colour-background-footer: #F5F5F7;
+    --colour-background-light: #F5F5F7;
+    --colour-background-dark: #161616;
+
+    --colour-background-lightblue: #C5EAFF;
+    --colour-background-darkblue1: #00395A;
+    --colour-background-darkblue2: #072034;
+
+    --colour-background-card1: #FAFAFA;
+    --colour-background-card2: #AEDFD9;
+
+    --colour-background-white: #FFFFFF;
+    --colour-background-black: #000000;
+
+    --colour-background-servicecard: #1E1E1E;
+
+    /* =========================
+       Buttons
+    ========================= */
+
+    --colour-button: #0071E3;
+    --colour-button-red: #F16568;
+
+    /* =========================
+       Status Colours
+    ========================= */
+
+    --colour-theme-success: #198754;
+    --colour-theme-error: #DC3545;
+    --colour-theme-warning: #FFC107;
+    --colour-theme-info: #0DCAF0;
+    --colour-theme-neutral: #ADB5BD;
+
+    /* =========================
+       Accent Colours
+    ========================= */
+
+    --colour-theme-blue: #3BCBFF;
+    --colour-theme-purple: #7B6CFF;
+    --colour-theme-pink: #FF5FA2;
+
+    --colour-auxiliary1: #00F3BF;
+    --colour-auxiliary2: #00A3E4;
+
+    /* =========================
+       Gradients
+    ========================= */
+
+    --colour-theme-gradient:
+        linear-gradient(
+            135deg,
+            var(--colour-theme-blue),
+            var(--colour-theme-purple),
+            var(--colour-theme-pink)
+        );
+
+    /* =========================
+       Common UI
+    ========================= */
+
+    --colour-border: #E5E5E5;
+
+    --shadow-sm:
+        rgba(0, 0, 0, 0.08) 0 2px 4px;
+
+    --shadow-md:
+        rgba(0, 0, 0, 0.10) 0 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+
+    --container-width: 1200px;
+}
