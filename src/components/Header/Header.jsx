@@ -6,7 +6,7 @@ function Header() {
       <div className="header-container">
 
         <a href="/" className="brand">
-          <img src="/logofornavbar.png" alt="AllMoto" />
+          <img src="./assets/logofornavbar.png" alt="AllMoto" />
           <span>AllMoto</span>
         </a>
 
