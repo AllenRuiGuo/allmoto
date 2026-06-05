@@ -19,3 +19,7 @@ h6 {
     color: var(--colour-text-dark);
     font-family: var(--font-heading);
 }
+
+a {
+    text-decoration: none;
+}
