@@ -1,3 +1,4 @@
+import logo from '../../assets/logofornavbarnobg.png'
 import './Header.css'
 
 function Header() {
@@ -6,7 +7,7 @@ function Header() {
       <div className="header-container">
 
         <a href="/" className="brand">
-          <img src="./assets/logofornavbar.png" alt="AllMoto" />
+          <img src={logo} alt="AllMoto" />
           <span>AllMoto</span>
         </a>
 
