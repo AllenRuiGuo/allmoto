@@ -8,7 +8,7 @@ function Header() {
 
         <a href="/" className="brand">
           <img src={logo} alt="AllMoto" />
-          <span>AllMoto</span>
+          <span className="brand-name">AllMoto</span>
         </a>
 
         <nav className="site-nav">
