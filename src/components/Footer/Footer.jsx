@@ -1,8 +1,10 @@
+import './Footer.css'
+
 function Footer() {
   return (
     <footer className="site-footer">
 
-      <h2>Together, we can build the site of your dreams.</h2>
+      <h1>Together, we can build the site of your dreams.</h1>
 
       <button>Contact Us</button>
 
