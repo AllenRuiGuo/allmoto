@@ -7,7 +7,7 @@ function Header() {
       <div className="header-container">
 
         <a href="/" className="brand">
-          <img src={logo} alt="AllMoto" />
+          <img className="brand-logo" src={logo} alt="AllMoto" />
           <span className="brand-name">AllMoto</span>
         </a>
 
