@@ -23,3 +23,18 @@ h6 {
 a {
     text-decoration: none;
 }
+
+.btn-lg {
+    font-size: 1.25rem;
+    font-family: var(--font-sans);
+}
+
+.btn-theme {
+    background: var(--colour-theme-gradient);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.4rem;
+    font-weight: 600;
+    transition: all 0.25s ease;
+}
