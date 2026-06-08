@@ -1,6 +1,7 @@
 .brand-name {
-    font-size: 1.5rem;
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
     font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
 .header-container {
@@ -11,7 +12,9 @@
 }
 
 .brand-logo {
-    height: 32px;
+    height: clamp(24px, 5vw, 32px);
+    width: auto;
+    display: block;
 }
 
 .site-header {
@@ -22,7 +25,7 @@
   width: 100%;
   min-height: 72px;
   padding: 0 32px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
   box-sizing: border-box;
   background-color: var(--colour-background-dark);
   color: var(--colour-text-light);
@@ -33,7 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 8px;
+  gap: 16px;
   min-width: 0;
 }
 
@@ -41,6 +44,7 @@
   color: var(--colour-text-light);
   font-size: 16px;
   font-weight: 600;
+  white-space: nowrap;
   line-height: 1;
   text-decoration: none;
   text-transform: capitalize;
@@ -49,17 +53,6 @@
   transition:
     background-color 0.2s,
     color 0.2s;
-}
-
-.site-nav a:hover,
-.site-nav a:focus-visible {
-  color: var(--accent);
-  background: var(--accent-bg);
-}
-
-.site-nav a:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
 }
 
 .brand {
@@ -72,23 +65,36 @@
   white-space: nowrap;
 }
 
+@media (max-width: 568px) {
 
-@media (max-width: 640px) {
-  .site-header {
-    /* 'min-height: auto' has compatibility issues in some browsers; use 0 to reset instead */
-    min-height: 0;
-    padding: 16px 20px;
-    align-items: flex-start;
-    flex-direction: column;
-  }
+    .site-header {
+        min-height: 56px;
+        padding: 0 16px;
+    }
 
-  .site-nav {
-    width: 100%;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
+    .brand-logo {
+        height: 24px;
+    }
 
-  .site-nav a {
-    padding-inline: 0;
-  }
+    .brand-name {
+        font-size: 1.25rem;
+        letter-spacing: 0;
+    }
+
+    .brand {
+        gap: 6px;
+    }
+
+    .site-nav {
+        gap: 6px;
+    }
+
+    .site-nav a {
+        font-size: 14px;
+        padding: 8px 6px;
+    }
+
+    .site-header {
+        padding: 0 16px;
+    }
 }
