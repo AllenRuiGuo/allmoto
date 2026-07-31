@@ -52,6 +52,11 @@ const homepageData = {
                 ]
             }
         ]
+    },
+    whyus: {
+        title: "Reliable, Efficient and Personalized only for you.",
+        subtitle: "Allmoto", 
+        image: "https://ik.imagekit.io/amdigitool/AMDigitool/Section%20Why%20Us.png?updatedAt=1746528852384",
     }
 
 }
