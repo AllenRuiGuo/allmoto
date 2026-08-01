@@ -8,7 +8,7 @@ import homepageData from '../data/homepageData'
 function Home() {
   return (
     <>
-      <Hero />
+      <Hero banner={homeData.banner} />
       <About />
       <Services />
       <WhyUs />
