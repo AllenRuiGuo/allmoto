@@ -2,7 +2,7 @@ const homepageData = {
     banner: {
         title: "Where ideas take shape",
         subtitle: "Designing and building your online presence",
-        image: "https://ik.imagekit.io/amdigitool/AMDigitool/Section%20Banner%20-%20Background.png?updatedAt=1746528852164",
+        imageUrl: "https://ik.imagekit.io/amdigitool/AMDigitool/Section%20Banner%20-%20Background.png?updatedAt=1746528852164",
     },
 
     about: {
@@ -14,10 +14,10 @@ const homepageData = {
         introduction: "Empathy is the first step in design thinking because it is a skill that allows us to understand and share the same feelings that others feel. Through empathy, we are able to put ourselves in other people's shoes and connect with how they might be feeling about their problem, circumstance, or situation.",
     },
 
-    service: {
+    services: {
         title: "How it works",
         description: "Starting an online small business from zero with limited funds and low risk!",
-        keyservices: [
+        keyServices: [
             {
                 id: 1,
                 title: "Design",
@@ -53,15 +53,15 @@ const homepageData = {
             }
         ]
     },
-    whyus: {
+    whyUs: {
         title: "Reliable, Efficient and Personalized only for you.",
         subtitle: "Allmoto", 
-        imageurl: "https://ik.imagekit.io/amdigitool/AMDigitool/Section%20Why%20Us.png?updatedAt=1746528852384",
+        imageUrl: "https://ik.imagekit.io/amdigitool/AMDigitool/Section%20Why%20Us.png?updatedAt=1746528852384",
     },
     faq: {
         title: "Get the answers you are looking for",
         subtitle: "HERE’S SOME FREQUENTLY ASKED QUESTIONS",
-        imageurl: "https://ik.imagekit.io/amdigitool/AMDigitool/Section%20Q%20&%20A.png?updatedAt=1746528852128",
+        imageUrl: "https://ik.imagekit.io/amdigitool/AMDigitool/Section%20Q%20&%20A.png?updatedAt=1746528852128",
         qas: [
             {
                 id: 1,
@@ -85,6 +85,6 @@ const homepageData = {
             }
             ]       
         }
-
-
 }
+
+export default homepageData
