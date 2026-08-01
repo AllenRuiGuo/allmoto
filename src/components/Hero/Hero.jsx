@@ -4,7 +4,7 @@ function Hero({ banner }) {
   return (
     <section
       className="hero"
-      style={{ backgroundImage: `url(${banner.backgroundImage})` }}
+      style={{ backgroundImage: `url(${banner.imageUrl})` }}
     >
       <div className="hero-container">
 
