@@ -13,7 +13,7 @@ function Hero({ banner }) {
 
           <h3>{banner.subtitle}</h3>
 
-          <button className="hero-button">
+          <button className="btn-theme">
             Contact Us
           </button>
         </div>
