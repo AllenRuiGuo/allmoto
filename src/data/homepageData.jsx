@@ -11,7 +11,9 @@ const homepageData = {
             "Welcome to",
             "Allmoto"
         ],
-        introduction: "Empathy is the first step in design thinking because it is a skill that allows us to understand and share the same feelings that others feel. Through empathy, we are able to put ourselves in other people's shoes and connect with how they might be feeling about their problem, circumstance, or situation.",
+        introductions: [
+            "Empathy is the first step in design thinking because it is a skill that allows us to understand and share the same feelings that others feel. Through empathy, we are able to put ourselves in other people's shoes and connect with how they might be feeling about their problem, circumstance, or situation."
+        ]
     },
 
     services: {
