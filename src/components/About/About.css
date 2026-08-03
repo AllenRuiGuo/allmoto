@@ -1,0 +1,29 @@
+.about {
+    padding: 100px 24px;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+}
+
+.about-heading {
+    flex: 1;
+}
+
+.about-content {
+    flex: 1.4;
+}
+
+.about-heading h1 {
+    margin: 0;
+}
+
+.about-content p {
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
