@@ -7,8 +7,9 @@
     margin: 0 auto;
 
     display: flex;
-    gap: 80px;
+    justify-content: space-between;
     align-items: flex-start;
+    gap: 80px;
 }
 
 .about-heading {
@@ -26,4 +27,22 @@
 .about-content p {
     line-height: 1.8;
     margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+
+    .about-container {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .about-heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-content {
+        width: 100%;
+        text-align: left;
+    }
 }
