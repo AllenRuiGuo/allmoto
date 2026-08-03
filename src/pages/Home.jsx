@@ -9,10 +9,10 @@ function Home() {
   return (
     <>
       <Hero banner={homepageData.banner} />
-      <About />
-      <Services />
-      <WhyUs />
-      <FAQ />
+      <About about={homepageData.about} />
+      <Services services={homepageData.services} />
+      <WhyUs whyUs={homepageData.whyUs} />
+      <FAQ faq={homepageData.faq} />
     </>
   )
 }
