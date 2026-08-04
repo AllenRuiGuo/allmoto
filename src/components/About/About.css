@@ -14,20 +14,21 @@
 
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 80px;
+    align-items: center;
+    gap: 48px;
 }
 
 .about-heading {
-    flex: 1;
+    flex: 0 0 35%; 
 }
 
 .about-content {
-    flex: 1.4;
+    flex: 1;
 }
 
 .about-heading h1 {
     margin: 0;
+    line-height: 1.6;
 }
 
 .about-content p {
@@ -40,6 +41,7 @@
     .about-container {
         flex-direction: column;
         gap: 32px;
+        align-items: flex-start;
     }
 
     .about-heading {
@@ -53,7 +55,8 @@
     }
 
     .about {
-    border-radius: 40px;
-    margin-top: -40px;
+        border-radius: 40px;
+        margin-top: -40px;
+        padding: 48px 20px;
     }
 }
