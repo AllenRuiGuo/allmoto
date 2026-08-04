@@ -1,5 +1,11 @@
 .about {
-    padding: 100px 24px;
+    position: relative;
+    z-index: 2;
+    margin-top: -64px;
+    background: var(--colour-background-white);
+    border-radius: 64px 64px 0 0;
+    overflow: hidden;
+    padding: 100px 24px 80px;
 }
 
 .about-container {
@@ -44,5 +50,10 @@
     .about-content {
         width: 100%;
         text-align: left;
+    }
+
+    .about {
+    border-radius: 40px;
+    margin-top: -40px;
     }
 }
