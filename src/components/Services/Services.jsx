@@ -7,7 +7,7 @@ function Services({ services }) {
 
       <div className="services-container">
 
-        <h1>{services.title}</h1>
+        <h1 className="services-title">{services.title}</h1>
 
         <p className="services-description">
           {services.description}

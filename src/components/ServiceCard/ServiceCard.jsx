@@ -1,4 +1,5 @@
 import './ServiceCard.css'
+import '../../styles/buttons.css'
 
 function ServiceCard({ service }) {
 
@@ -26,7 +27,7 @@ function ServiceCard({ service }) {
 
                 <a 
                     href="/projects"
-                    className="service-card-button"
+                    className="btn-theme"
                 >
                     Learn More
                 </a>

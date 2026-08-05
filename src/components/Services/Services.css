@@ -1,5 +1,5 @@
 .services {
-    padding: 80px 24px;
+    padding: 40px 24px;
 }
 
 
@@ -10,12 +10,14 @@
 
 
 .services-title {
+    width: 100%;
     text-align: center;
     margin-bottom: 16px;
 }
 
 
 .services-description {
+    width: 100%;
     text-align: center;
     font-weight: 400;
     margin-bottom: 48px;
@@ -31,7 +33,7 @@
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 900px) {
 
     .services-grid {
         grid-template-columns: 1fr;
