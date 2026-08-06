@@ -6,21 +6,17 @@ function WhyUs({ whyUs }) {
             className="why-us"
             style={{ backgroundImage: `url(${whyUs.imageUrl})` }}
         >
-            <div className="why-us-overlay">
+          <div className="why-us-container">
 
-                <div className="why-us-container">
-
-                    <h5 className="why-us-subtitle">
+              <h4 className="why-us-subtitle">
                         {whyUs.subtitle}
-                    </h5>
+              </h4>
 
-                    <h1 className="why-us-title">
+              <h1 className="why-us-title">
                         {whyUs.title}
-                    </h1>
+              </h1>
 
-                </div>
-
-            </div>
+          </div>
         </section>
     )
 }
