@@ -39,3 +39,15 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 992px) {
+
+    .faq-container {
+        flex-direction: column;
+    }
+
+    .faq-image {
+        display: none;
+    }
+
+}
