@@ -1,0 +1,40 @@
+.accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion-button {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 24px 0;
+
+    background: none;
+    border: none;
+
+    cursor: pointer;
+
+    text-align: left;
+}
+
+.accordion-button h5 {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.accordion-icon {
+    font-size: 1.5rem;
+    color: var(--colour-primary);
+}
+
+.accordion-content {
+    padding-bottom: 24px;
+}
+
+.accordion-content p {
+    margin: 0;
+    line-height: 1.8;
+}
