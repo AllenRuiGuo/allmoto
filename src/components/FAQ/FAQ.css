@@ -1,0 +1,41 @@
+.faq {
+    padding: 100px 24px;
+}
+
+.faq-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 64px;
+    align-items: flex-start;
+}
+
+.faq-image {
+    flex: 1;
+}
+
+.faq-image img {
+    width: 100%;
+    display: block;
+}
+
+.faq-content {
+    flex: 2;
+}
+
+.faq-subtitle {
+    color: var(--colour-placeholder);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.faq-title {
+    margin-bottom: 48px;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+}
