@@ -9,19 +9,18 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 24px 0;
+    padding: 16px 0;
 
     background: none;
     border: none;
 
     cursor: pointer;
-
     text-align: left;
 }
 
 .accordion-button h5 {
     margin: 0;
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     font-weight: 600;
 }
 
@@ -31,10 +30,10 @@
 }
 
 .accordion-content {
-    padding-bottom: 24px;
+    padding: 0 0 16px;
 }
 
 .accordion-content p {
     margin: 0;
-    line-height: 1.8;
+    line-height: 1.6;
 }

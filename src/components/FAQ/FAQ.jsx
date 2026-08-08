@@ -19,13 +19,13 @@ function FAQ({ faq }) {
 
                 <div className="faq-content">
 
-                    <h6 className="faq-subtitle">
+                    <h5 className="faq-subtitle">
                         {faq.subtitle}
-                    </h6>
+                    </h5>
 
-                    <h2 className="faq-title">
+                    <h1 className="faq-title">
                         {faq.title}
-                    </h2>
+                    </h1>
 
                     <div className="faq-list">
 
