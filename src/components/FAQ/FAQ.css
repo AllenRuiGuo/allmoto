@@ -1,5 +1,5 @@
 .faq {
-    padding: 80px 24px;
+    padding: 80px 32px;
 }
 
 .faq-container {
@@ -15,6 +15,10 @@
     flex: 1;
     display: flex;
     align-items: center;
+}
+
+.faq-image {
+    display: none;
 }
 
 .faq-image img {
@@ -42,4 +46,12 @@
 .faq-list {
     display: flex;
     flex-direction: column;
+}
+
+@media (min-width: 992px) {
+    .faq-image {
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
 }
