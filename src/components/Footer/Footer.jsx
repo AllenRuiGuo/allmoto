@@ -8,7 +8,7 @@ function Footer() {
 
       <button className="btn-lg btn-theme">Contact Us</button>
 
-      <p>© 2026 AllMoto</p>
+      <p>© 2023 AllMoto</p>
 
     </footer>
   )

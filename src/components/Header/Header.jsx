@@ -13,7 +13,9 @@ function Header() {
 
         <nav className="site-nav">
           <a href="/projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <button className="btn-theme">
+            Contact
+          </button>         
         </nav>
 
       </div>
