@@ -1,35 +1,58 @@
+import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
+import ContactModal from './components/ContactModal/ContactModal'
 
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
 import Projects from './pages/Projects/Projects'
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails'
 
 function App() {
+
+    const [contactOpen, setContactOpen] = useState(false)
+
     return (
         <BrowserRouter>
 
-            <Header />
+            <Header
+                onContactClick={() => setContactOpen(true)}
+            />
 
-            <Routes>
+            <main>
+                <Routes>
 
-                <Route path="/" element={<Home />} />
+                    <Route
+                        path="/"
+                        element={
+                            <Home
+                                onContactClick={() => setContactOpen(true)}
+                            />
+                        }
+                    />
 
-                <Route
-                    path="/projects"
-                    element={<Projects />}
-                />
+                    <Route
+                        path="/projects"
+                        element={<Projects />}
+                    />
 
-                <Route
-                    path="/projects/:projectId"
-                    element={<ProjectDetails />}
-                />
+                    <Route
+                        path="/projects/:projectId"
+                        element={<ProjectDetails />}
+                    />
 
-            </Routes>
+                </Routes>
+            </main>
 
-            <Footer />
+            <Footer
+                onContactClick={() => setContactOpen(true)}
+            />
+
+            <ContactModal
+                isOpen={contactOpen}
+                onClose={() => setContactOpen(false)}
+            />
 
         </BrowserRouter>
     )
