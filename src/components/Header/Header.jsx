@@ -13,8 +13,12 @@ function Header() {
 
         <nav className="site-nav">
           <a href="/projects">Projects</a>
-          <button className="btn-theme">
-            Contact
+          <button
+              type="button"
+              className="btn-theme"
+              onClick={onContactClick}
+          >
+              Contact
           </button>         
         </nav>
 
