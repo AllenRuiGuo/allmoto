@@ -6,7 +6,13 @@ function Footer() {
 
       <h1>Together, we can build the site of your dreams.</h1>
 
-      <button className="btn-lg btn-theme">Contact Us</button>
+      <button
+          type="button"
+          className="btn-theme"
+          onClick={onContactClick}
+      >
+          Contact Us
+      </button>
 
       <p>© 2023 AllMoto</p>
 
