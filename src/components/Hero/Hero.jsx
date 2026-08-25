@@ -13,8 +13,12 @@ function Hero({ banner }) {
 
           <h3>{banner.subtitle}</h3>
 
-          <button className="btn-theme">
-            Contact Us
+          <button
+              type="button"
+              className="btn-theme"
+              onClick={onContactClick}
+          >
+              Contact Us
           </button>
         </div>
 
