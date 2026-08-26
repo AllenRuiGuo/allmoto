@@ -5,7 +5,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import ContactModal from './components/ContactModal/ContactModal'
 
-import Home from './pages/Home/Home'
+import Home from './pages/Home'
 import Projects from './pages/Projects/Projects'
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails'
 

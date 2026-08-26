@@ -1,7 +1,7 @@
 import logo from '../../assets/logofornavbarnobg.png'
 import './Header.css'
 
-function Header() {
+function Header({ onContactClick }) {
   return (
     <header className="site-header">
       <div className="header-container">
