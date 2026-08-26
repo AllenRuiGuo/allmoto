@@ -1,6 +1,6 @@
 import './Footer.css'
 
-function Footer() {
+function Footer({ onContactClick }) {
   return (
     <footer className="site-footer">
 

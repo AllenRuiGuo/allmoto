@@ -1,6 +1,6 @@
 import './Hero.css'
 
-function Hero({ banner }) {
+function Hero({ banner, onContactClick }) {
   return (
     <section
       className="hero"
