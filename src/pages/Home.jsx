@@ -5,10 +5,10 @@ import WhyUs from '../components/WhyUs/WhyUs'
 import FAQ from '../components/FAQ/FAQ'
 import homepageData from '../data/homepageData'
 
-function Home() {
+function Home({ onContactClick }) {
   return (
     <>
-      <Hero banner={homepageData.banner} />
+      <Hero banner={homepageData.banner} onContactClick={onContactClick} />
       <About about={homepageData.about} />
       <Services services={homepageData.services} />
       <WhyUs whyUs={homepageData.whyUs} />
