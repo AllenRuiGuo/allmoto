@@ -92,6 +92,18 @@ function ContactModal({ isOpen, onClose }) {
                     </p>
                 </div>
 
+                <div className="contact-email-option">
+                    <span>Email us</span>
+
+                    <a href="mailto:amdigitool@gmail.com">
+                        amdigitool@gmail.com
+                    </a>
+                </div>
+
+                <div className="contact-divider">
+                    <span>OR SEND A MESSAGE</span>
+                </div>
+
                 <form
                     className="contact-form"
                     onSubmit={handleSubmit}

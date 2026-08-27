@@ -4,7 +4,7 @@
     z-index: 2000;
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 
     padding: 24px;
@@ -65,7 +65,7 @@
 
 .contact-modal-header {
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .contact-modal-header h2 {
@@ -82,6 +82,59 @@
     line-height: 1.6;
 }
 
+.contact-email-option {
+    padding: 18px 20px;
+
+    border: 1px solid var(--colour-theme-neutral);
+    border-radius: 10px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.contact-email-option span {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--colour-text-dark);
+}
+
+.contact-email-option a {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--colour-secondary);
+    text-decoration: none;
+}
+
+.contact-email-option a:hover {
+    text-decoration: underline;
+}
+
+.contact-divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    margin: 24px 0;
+
+    color: var(--colour-theme-neutral);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact-divider::before,
+.contact-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--colour-theme-neutral);
+}
+
+.contact-divider span {
+    flex-shrink: 0;
+}
 
 .contact-form {
     display: flex;
