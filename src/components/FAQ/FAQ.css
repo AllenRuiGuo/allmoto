@@ -8,16 +8,11 @@
 
     display: flex;
     gap: 64px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .faq-image {
     flex: 1;
-    display: flex;
-    align-items: center;
-}
-
-.faq-image {
     display: none;
 }
 
@@ -52,6 +47,6 @@
     .faq-image {
         display: flex;
         flex: 1;
-        align-items: center;
+        align-items: flex-start;
     }
 }
