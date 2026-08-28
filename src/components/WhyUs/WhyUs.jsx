@@ -16,6 +16,10 @@ function WhyUs({ whyUs }) {
                         {whyUs.title}
               </h1>
 
+              <p className="why-us-description">
+                        {whyUs.description}
+              </p>
+
           </div>
         </section>
     )

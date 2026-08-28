@@ -4,7 +4,7 @@ function Footer({ onContactClick }) {
   return (
     <footer className="site-footer">
 
-      <h1>Together, we can build the site of your dreams.</h1>
+      <h1>Let's turn your ideas into reality.</h1>
 
       <button
           type="button"

@@ -34,6 +34,15 @@
     line-height: 1.2;
 }
 
+.why-us-description {
+    color: var(--colour-text-light);
+    font-size: 1.125rem;
+    line-height: 1.6;
+
+    margin-top: 16px;
+    max-width: 1200px;
+}
+
 @media (max-width: 768px) {
 
     .why-us {
