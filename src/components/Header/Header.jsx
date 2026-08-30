@@ -1,4 +1,4 @@
-import logo from '../../assets/logofornavbarnobg.png'
+import logo from '../../assets/logofornavbarnobg.PNG'
 import './Header.css'
 
 function Header({ onContactClick }) {
