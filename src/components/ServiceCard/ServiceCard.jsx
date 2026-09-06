@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './ServiceCard.css'
 import '../../styles/buttons.css'
 
@@ -25,12 +26,12 @@ function ServiceCard({ service }) {
                 </p>
 
 
-                <a 
+                <Link 
                     href="/projects"
                     className="btn-theme"
                 >
                     Learn More
-                </a>
+                </Link>
 
             </div>
 
