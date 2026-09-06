@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './ProjectCard.css'
 
 function ProjectCard({ project }) {
@@ -5,8 +6,8 @@ function ProjectCard({ project }) {
     return (
         <div className="project-card-wrapper">
 
-            <a
-                href={`/projects/${project.id}`}
+            <Link
+                to={`/projects/${project.id}`}
                 className="project-card"
                 style={{
                     backgroundImage: `url("${project.thumbnail}")`
@@ -25,7 +26,7 @@ function ProjectCard({ project }) {
 
                 </div>
 
-            </a>
+            </Link>
 
             <h5 className="project-card-title">
                 {project.title}
