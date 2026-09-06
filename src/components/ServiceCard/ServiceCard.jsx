@@ -27,7 +27,7 @@ function ServiceCard({ service }) {
 
 
                 <Link 
-                    href="/projects"
+                    to="/projects"
                     className="btn-theme"
                 >
                     Learn More
