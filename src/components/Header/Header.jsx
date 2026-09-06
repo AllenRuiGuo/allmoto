@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import logo from '../../assets/logofornavbarnobg.PNG'
 import './Header.css'
 
@@ -12,7 +13,7 @@ function Header({ onContactClick }) {
         </a>
 
         <nav className="site-nav">
-          <a href="/projects">Projects</a>
+          <Link to="/projects">Projects</Link>
           <button
               type="button"
               className="btn-theme"
